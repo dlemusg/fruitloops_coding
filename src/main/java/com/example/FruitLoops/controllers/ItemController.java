@@ -12,7 +12,7 @@ import com.example.FruitLoops.models.Item;
 @Controller
 public class ItemController {
 	
-	 @GetMapping("/index")
+	 @GetMapping("/")
 	 public String loop(Model model) {
 	     
 	     ArrayList<Item> fruits = new ArrayList<Item>();
